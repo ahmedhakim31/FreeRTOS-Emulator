@@ -16,5 +16,5 @@ void vDrawStaticItems(void);
 void vDrawButtonText(void);
 void vDrawSpriteAnnimations(TickType_t xLastFrameTime);
 void vDrawInitAnnimations(void);
-
+void vDrawCircle(void);
 #endif //__DRAW_H__

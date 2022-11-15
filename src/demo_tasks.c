@@ -37,6 +37,7 @@ void vDemoTask1(void *pvParameters)
                 vDrawCave(tumEventGetMouseLeft());
                 vDrawButtonText();
                 vDrawSpriteAnnimations(xLastFrameTime);
+                vDrawCircle();
 
                 xLastFrameTime = xTaskGetTickCount();
 

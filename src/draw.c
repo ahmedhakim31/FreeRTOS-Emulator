@@ -41,6 +41,11 @@ void vDrawClearScreen(void)
     checkDraw(tumDrawClear(White), __FUNCTION__);
 }
 
+void vDrawCircle(void)
+{
+	checkDraw(tumDrawcircle(320,240,100,Green),__FUNCTION__);
+}
+
 void vDrawCaveBoundingBox(void)
 {
     checkDraw(tumDrawFilledBox(CAVE_X - CAVE_THICKNESS,
